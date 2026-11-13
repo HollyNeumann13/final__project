@@ -463,6 +463,10 @@ QUALITY WORK ↓
   display: block;
 }
 
+.quality__btn {
+    margin-top: 20px;
+}
+
 /* 
 
 STEPS ↓
@@ -1424,6 +1428,19 @@ MOBILE RESPONSIVENESS ↓
     flex-direction: column-reverse;
   }
 
+  .step {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step__description {
+    margin: 0;
+  }
+
+  .step__number {
+    margin-bottom: 16px;
+  }
+
   .quality__description,
   .quality__img--wrapper,
   .steps__description,
@@ -1578,6 +1595,7 @@ MOBILE RESPONSIVENESS ↓
   .testimonial__buttons {
     margin-top: 32px;
   }
+
   .start__title {
     font-size: 24px;
   }
